@@ -1,0 +1,51 @@
+Abhishek Deo
+Milestone 3
+
+Use Case: Allocate points
+	
+	Primary Actor: 
+		The main actor of this use case is the player. The player
+		interacts with the character allocation page and establishes 
+		an in-game name for themselves.
+		
+		The interface is user-oriented using a Graphical Display Library.
+
+	Supporting Actor:
+		The supporting actor for the use case is the in-game character
+		specifically regarding the allocation of points to skills on the
+		character.
+
+	Offstage Actor:
+		The primary actor uses the supporting actor in the
+		system, which in itself is a service. The supporting actor is
+		influenced by the number of points assigned to it's skills which is 
+		the offstage actor.
+
+	Trigger Event:
+		Creating a new character in the game causes this use case to start.
+		This use case will be an influencing factor on how the player plays
+		the game throughout the whole game.
+
+	Stakeholders:
+		There are no stakeholders for this use case because no one other than
+		the primary actor themselves are interested in this use case.
+	
+	Precondition:
+		Primary actor starts of with 1 point in all of their respective skills.
+		Actor starts out with 8 points to allocate however they like initially
+		and has to earn points to further improve their skills.
+
+	Postcondition:
+		Primary actor has maxed out the possible number of points available for each
+		skill which is 10 in this case.
+
+	Main Success Scenario:
+		Player approaches to do a task and is able to perform the operation because the
+		player has enough points accumalated for that repective skill. Successfully performing
+		tasks generates more points for the player to allocate in their skills.
+
+	Alternative Flows:
+		The player will be unable to perform tasks or do operations that have a skill level
+		higher than their own. A restriction error will appear stating that the player has too
+		low of a specific skill level to perform the task and will let them know how many points they
+		need on a specific skill to be able to perform said task.

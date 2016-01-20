@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Controllers" version="3">
+  <DEPS>
+    <ID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+    <EXTID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+    <EXTID name="Goods" mc="Package" uid="cc7f8819-5b8b-4b53-82a7-a2c47ce2f037"/>
+    <EXTID name="Planet" mc="Package" uid="3c87ccbd-af82-4ffc-b576-fd123467fb49"/>
+    <EXTID name="Player" mc="Package" uid="5216b520-e945-454f-a76d-5f07c994fff1"/>
+    <EXTID name="Ship" mc="Package" uid="896312ee-228b-478c-98fb-81a10832b436"/>
+    <EXTID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+    <EXTID name="StockMarket" mc="Package" uid="5ae1ce35-e8c3-40cb-b555-8551c8b58c9a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+    <PID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Controllers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="016afd96-ce57-4e2b-98a6-1b196b66f6ce"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Player" mc="Package" uid="5216b520-e945-454f-a76d-5f07c994fff1"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="b803dda8-df7d-4396-9e50-0beadc055db7"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="e9364252-2924-4765-a613-109599a3d377"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Planet" mc="Package" uid="3c87ccbd-af82-4ffc-b576-fd123467fb49"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="999874ac-3163-46ef-85ec-e48f1566230a"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="105f1cfa-89b9-4769-9ac7-edb96eb113a9"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="StockMarket" mc="Package" uid="5ae1ce35-e8c3-40cb-b555-8551c8b58c9a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="797a639f-060d-4894-8705-c487a660a50c"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Goods" mc="Package" uid="cc7f8819-5b8b-4b53-82a7-a2c47ce2f037"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="cd6ea493-b9bc-4514-8265-3202369cedca"/>
+          <PID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Ship" mc="Package" uid="896312ee-228b-478c-98fb-81a10832b436"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

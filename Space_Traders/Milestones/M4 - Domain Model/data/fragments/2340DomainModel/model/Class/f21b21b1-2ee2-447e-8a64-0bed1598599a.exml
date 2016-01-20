@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Flea" version="3">
+  <DEPS>
+    <ID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+    <EXTID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+    <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+    <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+    <PID name="2340domainmodel" mc="Package" uid="6f11e6ad-8d9d-4b17-8d59-0c3a54131c01"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Flea]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="3f3066ca-489d-415c-9cd4-9b9ea744e711"/>
+          <PID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="8a292449-c124-4bbe-b0c5-223336754dab"/>
+          <PID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="03913547-d931-4fce-8f61-ca96bb347d19"/>
+                <PID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Information Holder]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

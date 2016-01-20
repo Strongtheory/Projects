@@ -1,0 +1,54 @@
+Visit shipyard if high enough tech level
+Ships | Weapons | Shields | Gadgets | Escape pod
+Tech level determines what is sold (have grayed out items for future tech levels)
+
+Weapons:
+3 Types: Pulse, Beam, Military
+If you have no weapon slots on your ship, or have bought no weapons, you won't be able to attack.
+
+Shields:
+2 Types: Energy, Reflective
+Shields get depleted when attacked, then hull is damaged
+Shields recharge when traveling
+Shields fully recharge at space port
+
+Gadgets:
+5 Types: 5 extra cargo (fairly cheap, can install move than one), navigation system (helps piloting), auto-repair system, targeting system, cloaking device (very expensive), escape pod (survive when ship destroyed, all cargo/upgrades lost)
+
+Ships:
+Hull strength, # cargo bays, # weapon slots, # shield slots, # gadget slots, # crew quarters, max travel range
+Buying new ship trades in old one, including equipment. Worth of ship (including cargo/equipment) is subtracted from price of new ship (inform user via warning). If you have cargo on board which the people in the current system don't want, you will lose that cargo without any compensation. Escape pod transferred to new ship. Insurance also transferred (including no-claim)
+Can buy ship repairs to fix hull strength (health)
+
+
+
+Ship Types:
+Flea
+- Small, few cargo holds, weak hull, 0 weapon, 0 shield, 0 gadget, 20 parsec
+
+Gnat
+- Ship you start with, 1 weapon, 1 gadget, 15 cargo, 14 parsec, 14 parsec
+
+Firefly
+- 20 cargo, 1 weapon, 1 shield, 1 gadget, 17 parsec
+
+Mosquito
+- Fairly strong hull, 2 weapons, 1 shield, 1 gadget, 15 cargo, 13 parsec
+
+Bumblebee
+- 20 cargo, same hull as firefly, 1 weapon, 2 shields, 2 gadgets, 1 crew, 15 parsec
+
+Beetle
+- 50 cargo, weak hull, 0 weapon, 1 shield, 1 gadget, 3 crew, 14 parsec
+
+Hornet
+- 20 cargo, fairly strong hull, 3 weapons, 2 shields, 1 gadget, 2 crew, 16 parsec
+
+Grasshopper
+- 30 cargo, 2 weapon, 2 shield, 3 gadget, 3 crew, 15 parsec
+
+Termite
+- 60 cargo, strong hull, 1 weapon 3 shield, 2 gadget, 3 crew, 13 parsec
+
+Wasp
+- 35 cargo, strong hull, 3 weapon, 2 shield, 2 gadget, 3 crew, 14 parsec

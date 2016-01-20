@@ -1,0 +1,11 @@
+Brainstormed List of Use Cases:
+1) Create character
+2) Allocate points
+3) Buy wares
+4) Sell wares
+5) Save character
+6) Load character
+7) Exchange investments
+8) Travel to planets
+9) Hire mercenaries
+10) Encounter police

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mercenary" version="3">
+  <DEPS>
+    <ID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+    <EXTID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+    <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+    <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+    <PID name="2340domainmodel" mc="Package" uid="6f11e6ad-8d9d-4b17-8d59-0c3a54131c01"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Mercenary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="upkeep" mc="Attribute" uid="e8a7fde0-6c05-4912-b3e9-894e0267f966"/>
+          <PID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[upkeep]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="a795b84a-33cd-4fa4-bdb6-ee99af45add6"/>
+          <PID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="6ab20ab8-df0d-472b-9f9e-2b3a2c0a4753"/>
+          <PID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="ad6215af-b225-4c50-9c8f-764021781403"/>
+                <PID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Coordinator + Service Provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>2015-Star-Citizen.jpg</file>
+        <file>mainwindow.qml</file>
+        <file>newgame.qml</file>
+        <file>Skill.qml</file>
+        <file>settings.qml</file>
+        <file>navigation.qml</file>
+        <file>SolarSystem.qml</file>
+        <file>marketplace.qml</file>
+        <file>Planet.png</file>
+        <file>DialogBox.qml</file>
+        <file>Planet.qml</file>
+        <file>planetNavigation.qml</file>
+        <file>shipyard.qml</file>
+        <file>ShipyardShips.qml</file>
+        <file>SolarSystemAndroid.qml</file>
+        <file>ShipyardGadgets.qml</file>
+        <file>ShipyardShields.qml</file>
+        <file>ShipyardWeapons.qml</file>
+        <file>fuelStation.qml</file>
+    </qresource>
+</RCC>

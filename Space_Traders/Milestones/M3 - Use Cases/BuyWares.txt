@@ -1,0 +1,19 @@
+Use Case By Brian Surber
+
+Title: Buy wares
+
+Primary Actor: Player
+
+Stakeholders: The system selling the wares, police ships in the area (if wares are illegal)
+
+Precondition: Player has empty cargo holds in their ship enough to hold the wares, player is present in the system, player has enough credits to afford the wares, wares are present in the   system
+
+Postcondition: The appropriate number of player's cargo holds have been filled with the wares, the player now has lost a number of credits (the price of the wares), player is still in the   present in the system, wares have been removed from the system
+
+Main Success Scenario: The player selects a certain number of wares that he has space for and credits to pay for. He clicks "Buy" and confirms the purchase. The player's displayed cargo     hold will now contain the bought wares and the price will have been deducted from the player's credit counter. A dialog will say "Successful Purchase" and the player will be free to continue playing.
+
+Extensions/Alternative Flows:
+-If there are police in the system and the player attempts to buy an illegal resource, a dialog will appear saying that he/she is unable to buy illegal products with police present. The transaction is then canceled.
+-If the player attempts to buy an illegal resource, there should be a warning before the purchase confirmation that the player is about to purchase something illegal. After the warning, the purchase confirmation will appear and the flow will continue as normal.
+-If the player attempts to buy wares with a cumulative price greater than the amount of credits that the player has, instead of a confirmation dialog, a failure dialog will appear saying that the player does not have sufficient credits. After the alert, the transaction will be canceled.
+-If the player attempts to purchase wares that require more cargo hold space than the player's ship has available, instead of a confirmation dialog, a failure dialog will appear saying that the player does not have sufficient space in their ship for the wares. After the alert, the transaction will canceled.

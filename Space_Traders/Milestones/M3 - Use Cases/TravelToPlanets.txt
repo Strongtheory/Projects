@@ -1,0 +1,27 @@
+Saikrishna Arcot
+
+Use Case Title: Travel to planets
+
+Primary Actor: Player
+
+Stakeholders: Player
+
+Precondition:
+	1. The player's ship has enough fuel to travel to a planet.
+	2. The player has enough tokens to pay for any recurring payments.
+	3. The player is in the ship.
+
+Postcondition:
+	1. The player and his ship are now at another planet.
+
+Main Success Scenario:
+	1. The player is in the ship.
+	2. The player opens up the map to see the planets in the system.
+	3. The player clicks on a planet.
+	4. A dialog box opens up showing details about the planet, including the fuel required to get there.
+	5. The player clicks a button to warp to that planet.
+	6. The player and the ship warp to that planet, and land on a landing pad on the other planet.
+
+Extensions/Alternative Flows:
+	5a. If there is not enough fuel or tokens, then a failure dialog is presented, and the action is stopped.
+	6a. If police intercept the ship on arrival into the planet, then the warp stops there.

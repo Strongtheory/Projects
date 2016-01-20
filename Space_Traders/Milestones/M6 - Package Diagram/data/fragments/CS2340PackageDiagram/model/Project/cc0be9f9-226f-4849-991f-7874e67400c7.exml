@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CS2340PackageDiagram" version="3">
+  <DEPS>
+    <ID name="CS2340PackageDiagram" mc="Project" uid="cc0be9f9-226f-4849-991f-7874e67400c7"/>
+    <COMPID name="CS2340PackageDiagram" mc="DiagramSet" uid="3debf54a-4888-4dcc-bba9-a91817b321c2"/>
+    <COMPID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CS2340PackageDiagram" mc="Project" uid="cc0be9f9-226f-4849-991f-7874e67400c7"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[CS2340PackageDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="CS2340PackageDiagram" mc="DiagramSet" uid="3debf54a-4888-4dcc-bba9-a91817b321c2"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

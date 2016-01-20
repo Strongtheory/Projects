@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="2340domainmodel" version="3">
+  <DEPS>
+    <ID name="2340domainmodel" mc="Package" uid="6f11e6ad-8d9d-4b17-8d59-0c3a54131c01"/>
+    <COMPID name="Bumblebee" mc="Class" uid="b871a17c-13ad-4711-a792-182d074e8cda"/>
+    <COMPID name="Class" mc="Class" uid="bfd39207-31b0-4782-9d86-b91100591d85"/>
+    <COMPID name="Company" mc="Class" uid="0454825f-1992-462c-881e-f15a0d4eca38"/>
+    <COMPID name="DomainModel" mc="ClassDiagram" uid="fc5c1c1c-4b2d-4529-be09-ee5d5fc014a0"/>
+    <COMPID name="Firefly" mc="Class" uid="67972925-9706-43ef-ab63-559c9ccfef48"/>
+    <COMPID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+    <COMPID name="Gnat" mc="Class" uid="8c476a99-9392-40ba-968c-d13cf55cabb1"/>
+    <COMPID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+    <COMPID name="Mosquito" mc="Class" uid="de581e86-557e-4813-b693-bdd18a40c3d0"/>
+    <COMPID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+    <COMPID name="Pirate" mc="Class" uid="e50acbcf-ebeb-4089-a020-dbdf14c02caf"/>
+    <COMPID name="Planet" mc="Class" uid="4c0e4fd3-3a3d-4a1f-b930-0340f2ae7421"/>
+    <COMPID name="Player" mc="Class" uid="0b034ceb-c62d-4d55-95ff-773e08c5e930"/>
+    <COMPID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+    <COMPID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+    <COMPID name="System" mc="Class" uid="02f9e35a-74e2-4736-9d1a-2acf6bb33065"/>
+    <COMPID name="Trader" mc="Class" uid="f08ccefe-6b16-484c-965a-88ec235bdb54"/>
+    <COMPID name="Universe" mc="Class" uid="2f969c2b-e2e9-4078-bb5f-8948d0ca273f"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="a65e1882-746a-486d-bbbe-004635842148"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="2340domainmodel" mc="Package" uid="6f11e6ad-8d9d-4b17-8d59-0c3a54131c01"/>
+    <PID name="2340DomainModel" mc="Project" uid="a326570c-13eb-4139-8b15-af25d14c3786"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[2340domainmodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+        <COMPID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+        <COMPID name="Trader" mc="Class" uid="f08ccefe-6b16-484c-965a-88ec235bdb54"/>
+        <COMPID name="Mercenary" mc="Class" uid="6ba22702-c116-4c2c-a23d-4ad0280a1600"/>
+        <COMPID name="Pirate" mc="Class" uid="e50acbcf-ebeb-4089-a020-dbdf14c02caf"/>
+        <COMPID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+        <COMPID name="Player" mc="Class" uid="0b034ceb-c62d-4d55-95ff-773e08c5e930"/>
+        <COMPID name="Company" mc="Class" uid="0454825f-1992-462c-881e-f15a0d4eca38"/>
+        <COMPID name="Universe" mc="Class" uid="2f969c2b-e2e9-4078-bb5f-8948d0ca273f"/>
+        <COMPID name="System" mc="Class" uid="02f9e35a-74e2-4736-9d1a-2acf6bb33065"/>
+        <COMPID name="Planet" mc="Class" uid="4c0e4fd3-3a3d-4a1f-b930-0340f2ae7421"/>
+        <COMPID name="Flea" mc="Class" uid="f21b21b1-2ee2-447e-8a64-0bed1598599a"/>
+        <COMPID name="Gnat" mc="Class" uid="8c476a99-9392-40ba-968c-d13cf55cabb1"/>
+        <COMPID name="Firefly" mc="Class" uid="67972925-9706-43ef-ab63-559c9ccfef48"/>
+        <COMPID name="Mosquito" mc="Class" uid="de581e86-557e-4813-b693-bdd18a40c3d0"/>
+        <COMPID name="Bumblebee" mc="Class" uid="b871a17c-13ad-4711-a792-182d074e8cda"/>
+        <COMPID name="Class" mc="Class" uid="bfd39207-31b0-4782-9d86-b91100591d85"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="a65e1882-746a-486d-bbbe-004635842148"/>
+        <COMPID name="DomainModel" mc="ClassDiagram" uid="fc5c1c1c-4b2d-4529-be09-ee5d5fc014a0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

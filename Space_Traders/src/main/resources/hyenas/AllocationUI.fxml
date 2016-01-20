@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" styleClass="default-background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hyenas.AllocationController">
+    <children>
+        <BorderPane AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <top>
+                <Pane id="topPadding" prefHeight="60"></Pane>
+            </top>
+            <center>
+                <BorderPane styleClass="allocation-pane">
+                    <center>
+                        <VBox fx:id="vbox" spacing="10" prefHeight="400" prefWidth="300" styleClass="alertPane">
+                            <BorderPane.margin>
+                                <Insets left="30.0" right="30.0" top="50.0" bottom="50.0" />
+                            </BorderPane.margin>
+                            <children>
+                                <Pane prefHeight="5"></Pane>
+                                <BorderPane>
+                                    <center>
+                                        <Label styleClass="titleLabel" text="Character Properties"></Label>
+                                    </center>
+                                    <bottom>
+                                        <BorderPane>
+                                            <center>
+                                                <Label fx:id="point" styleClass="alertPaneMessageLabel" text="x point(s) remaining"></Label>
+                                            </center>
+                                        </BorderPane>
+                                    </bottom>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label styleClass="alertPaneTitleLabel" alignment="CENTER" contentDisplay="CENTER" text="Name:"></Label>
+                                            </left>
+                                            <right>
+                                                <TextField fx:id="name" alignment="CENTER"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label styleClass="alertPaneTitleLabel" text="Skill Type:"></Label>
+                                            </left>
+                                            <right>
+                                                <Label styleClass="alertPaneTitleLabel" text="Points"></Label>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label prefWidth="250" styleClass="skillType" text="Pilot"></Label>
+                                            </left>
+                                            <center>
+                                                <Label styleClass="skillType" fx:id="pCounter" text="1"></Label>
+                                            </center>
+                                            <right>
+                                                <Button fx:id="pilot" styleClass="standard-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="+"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label prefWidth="250" styleClass="skillType" text="Fighter"></Label>
+                                            </left>
+                                            <center>
+                                                <Label styleClass="skillType" fx:id="fCounter" text="1"></Label>
+                                            </center>
+                                            <right>
+                                                <Button fx:id="fighter" styleClass="standard-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="+"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label prefWidth="250" styleClass="skillType" text="Trader"></Label>
+                                            </left>
+                                            <center>
+                                                <Label styleClass="skillType" fx:id="tCounter" text="1"></Label>
+                                            </center>
+                                            <right>
+                                                <Button fx:id="trader" styleClass="standard-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="+"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label prefWidth="250" styleClass="skillType" text="Engineer"></Label>
+                                            </left>
+                                            <center>
+                                                <Label styleClass="skillType" fx:id="eCounter" text="1"></Label>
+                                            </center>
+                                            <right>
+                                                <Button fx:id="engineer" styleClass="standard-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="+"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <right><Pane prefWidth="10"></Pane></right>
+                                    <left><Pane prefWidth="10"></Pane></left>
+                                    <center>
+                                        <BorderPane>
+                                            <left>
+                                                <Label prefWidth="250" styleClass="skillType" text="Inventor"></Label>
+                                            </left>
+                                            <center>
+                                                <Label styleClass="skillType" fx:id="iCounter" text="1"></Label>
+                                            </center>
+                                            <right>
+                                                <Button fx:id="investor" styleClass="standard-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="+"/>
+                                            </right>
+                                        </BorderPane>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <center>
+                                        <Button fx:id="reset" styleClass="standard-button" prefHeight="37.0" prefWidth="143.0" mnemonicParsing="false" text="Reset"/>
+                                    </center>
+                                </BorderPane>
+
+                                <BorderPane>
+                                    <center>
+                                        <Button fx:id="create" styleClass="standard-button" prefHeight="37.0" prefWidth="143.0" mnemonicParsing="false" onAction="#create" text="Confirm" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                                    </center>
+                                </BorderPane>
+                                
+                            </children>
+                        </VBox>
+                    </center>
+                </BorderPane>
+            </center>
+            <right><Pane prefWidth="450"></Pane></right>
+            <left><Pane prefWidth="450"></Pane></left>
+            <bottom>
+                <AnchorPane prefHeight="60.0">
+                    <Button fx:id="goBack" styleClass="standard-button" prefHeight="37.0" prefWidth="143.0" mnemonicParsing="false" onAction="#goBack" text="Cancel" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
+                </AnchorPane>
+            </bottom>
+        </BorderPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Police" version="3">
+  <DEPS>
+    <ID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+    <EXTID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+    <EXTID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+    <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+    <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+    <PID name="2340domainmodel" mc="Package" uid="6f11e6ad-8d9d-4b17-8d59-0c3a54131c01"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Police]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="encounter" mc="Operation" uid="2b090cdb-a52f-437b-b53d-273b9d0a504c"/>
+          <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[encounter]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="ship" mc="AssociationEnd" uid="05772812-e28a-424a-9d3a-f03357ac2120"/>
+          <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[ship]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Ship" mc="Class" uid="8484633d-56ed-4716-8715-82dd41a79c22"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="0fc3a9ae-6a33-47bd-a536-71d7fce9b046"/>
+                <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="ship" mc="AssociationEnd" uid="05772812-e28a-424a-9d3a-f03357ac2120"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="has a" mc="Association" uid="e31a36b1-7461-4bac-91ec-b27ed0cdac63"/>
+                      <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[has a]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="has a" mc="Association" uid="e31a36b1-7461-4bac-91ec-b27ed0cdac63"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="a406483c-c587-4788-adb9-574052cce1f6"/>
+          <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="NPC" mc="Class" uid="53a24b0a-ff5e-4127-843f-1c889d611eec"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="UML2StereotypeProperty" mc="Stereotype" uid="bae91a3b-7009-11e0-a462-0027103f347c"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="663179e7-a66e-4418-9a34-830a948f48fb"/>
+          <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="3438661e-4150-47df-81ff-9758fc0b080f"/>
+                <PID name="Police" mc="Class" uid="3dc441b6-896d-45a4-9088-c04f2d41f581"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Coordinator + Service Provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="Property" mc="TagType" uid="c28e8b06-7009-11e0-a462-0027103f347c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

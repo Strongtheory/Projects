@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" id="AnchorPane" styleClass="default-background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hyenas.CombatController">
+    <children>
+        <VBox fx:id="boxPane" AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" >
+            <children>
+                <BorderPane prefHeight="60">
+                    <top>
+                        <!--Used as padding so title label appears in center-->
+                        <Pane prefHeight="70.0"></Pane>
+                    </top>
+                    <center>
+                        <Label fx:id="titleLabel" text="Combat"></Label>
+                    </center>
+                </BorderPane>
+                
+                <VBox fx:id="centerPane" prefHeight="500">
+                    
+                </VBox>
+            </children>
+        </VBox>
+        <Button fx:id="flee" styleClass="standard-button" prefHeight="37.0" prefWidth="143.0" mnemonicParsing="false" onAction="#onFlee" text="Flee" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
+    </children>
+</AnchorPane>

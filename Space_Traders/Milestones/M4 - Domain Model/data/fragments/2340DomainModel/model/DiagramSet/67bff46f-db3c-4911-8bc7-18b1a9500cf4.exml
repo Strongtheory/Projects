@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="2340DomainModel" version="3">
+  <DEPS>
+    <ID name="2340DomainModel" mc="DiagramSet" uid="67bff46f-db3c-4911-8bc7-18b1a9500cf4"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="2340DomainModel" mc="DiagramSet" uid="67bff46f-db3c-4911-8bc7-18b1a9500cf4"/>
+    <PID name="2340DomainModel" mc="Project" uid="a326570c-13eb-4139-8b15-af25d14c3786"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[2340DomainModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,42 @@
+Alex Perez (aperez46)
+
+Use Case: Hire Mercenaries
+
+Primary Actor: Player
+
+Stakeholders/Goals:
+	- Player: Wishes to be able to quickly hire a mercenary that can take over certain duties, usually in skill areas the player lacks.
+
+Preconditions:
+	- Player must be at a space port.
+
+Postconditions:
+	- Player has hired one or more mercenaries. Mercenaries hired are added to the roster of the player's ship and are no longer available for hire.
+
+Main Success Scenario:
+	1. Player examines Personnel Roster at space port
+	2. System shows list of available mercenaries, along with each mercenary's skill levels and cost to hire (in credits)
+	3. Player selects one or more mercenaries to hire
+	4. System shows updating total cost (in credits) of player's selections
+	5. Player presses "Hire" button
+	6. System asks player to confirm selection(s)
+	7. Player confirms transaction
+	8. System adds the hired mercenaries to the roster of the player's ship, removes the mercenaries from the list of available mercenaries, and ends the transaction
+
+Extensions or Alternate Flows:
+    2a. No mercenaries are available to hire
+    	1. System indicates to player there are no mercenaries available to hire at this space port and ends transaction
+    **3-8a. Player chooses to cancel transaction
+        1. System ends transaction
+    7a. Player cancels purchase instead of confirming
+    	1. System ends transaction
+    7b. Player has insufficient credits to hire mercenaries
+        1. System warns player they have insufficient funds to pay for the mercenaries and that the mercenaries will not leave with the player from the space port unless the player has enough credits before warping. System asks player to confirm anyway or modify selections
+            2a. Player confirms transaction 
+            2b. Player chooses to modify selections
+                1. System cancels transaction and allows user to modify selections
+    8a. Ship's roster is full (player can only hire a TBD max number of mercenaries)
+    	1. System displays error to player informing them they cannot hire
+
+Miscellaneous:
+    Credits are not deducted from the player's total until right before he/she warps. Because of this, the player can hire mercenaries without having sufficient credits, but they will have to have sufficient credits if they want to leave with the mercenaries hired.

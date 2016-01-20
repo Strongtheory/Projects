@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Technical Services" version="3">
+  <DEPS>
+    <ID name="Technical Services" mc="Package" uid="3f9ab069-8065-4f13-a632-faf2c65ffe9c"/>
+    <COMPID name="Persistence" mc="Package" uid="8b0c1445-39ef-4ce6-9e63-49c4c3fa684e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Technical Services" mc="Package" uid="3f9ab069-8065-4f13-a632-faf2c65ffe9c"/>
+    <PID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Technical Services]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persistence" mc="Package" uid="8b0c1445-39ef-4ce6-9e63-49c4c3fa684e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

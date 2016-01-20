@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CS2340PackageDiagram" version="3">
+  <DEPS>
+    <ID name="CS2340PackageDiagram" mc="PropertyContainer" uid="9798d6eb-4e14-47ce-9c87-d529a16f7815"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CS2340PackageDiagram" mc="PropertyContainer" uid="9798d6eb-4e14-47ce-9c87-d529a16f7815"/>
+    <PID name="CS2340PackageDiagram" mc="AnalystProject" uid="a737c8c4-430c-40b8-a453-5d39751685a6"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CS2340PackageDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

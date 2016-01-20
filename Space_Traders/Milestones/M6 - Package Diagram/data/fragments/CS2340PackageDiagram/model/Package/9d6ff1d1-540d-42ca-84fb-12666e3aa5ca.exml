@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PackageDiagram" version="3">
+  <DEPS>
+    <ID name="PackageDiagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <COMPID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+    <COMPID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+    <COMPID name="Technical Services" mc="Package" uid="3f9ab069-8065-4f13-a632-faf2c65ffe9c"/>
+    <COMPID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+    <COMPID name="cs2340packagediagram Deployment diagram" mc="DeploymentDiagram" uid="fc6406fe-48df-4739-ae8c-51202d60897c"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="a13201c4-3014-413d-8680-ab4ad0f00554"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PackageDiagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <PID name="CS2340PackageDiagram" mc="Project" uid="cc0be9f9-226f-4849-991f-7874e67400c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PackageDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+        <COMPID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+        <COMPID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+        <COMPID name="Technical Services" mc="Package" uid="3f9ab069-8065-4f13-a632-faf2c65ffe9c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="a13201c4-3014-413d-8680-ab4ad0f00554"/>
+        <COMPID name="cs2340packagediagram Deployment diagram" mc="DeploymentDiagram" uid="fc6406fe-48df-4739-ae8c-51202d60897c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

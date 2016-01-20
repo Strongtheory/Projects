@@ -1,0 +1,36 @@
+defaultTasks 'assemble'
+
+apply from: 'javafx.plugin'
+
+sourceCompatibility = '1.8'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+if (!hasProperty('mainClass')) {
+    ext.mainClass = 'hyenas.HyenasLoader'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'lib', include: '*.jar')
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.7.2'
+}
+
+task copyFiles(type: Copy) {
+    from("lib")
+    into("build/libs")
+    include('*.jar')
+}
+
+jar {
+    manifest {
+        attributes(
+            "Class-Path": configurations.compile.collect { it.getName() }.join(' '),
+            "Main-Class": 'hyenas.Hyenas'
+        )
+    }
+}
+
+jar.dependsOn copyFiles

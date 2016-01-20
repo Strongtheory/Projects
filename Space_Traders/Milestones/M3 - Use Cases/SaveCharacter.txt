@@ -1,0 +1,17 @@
+JR Mailig (jmailig3)
+
+Title: Save character
+
+Primary Actor: Player
+
+Stakeholders: Only the player has an interest in this use case.
+
+Precondition: The player must be logged into a character.
+
+Postcondition: A new save file is created or another is overwritten with the current state of the character allowing it to be loaded in the future.
+
+Main Success Scenario: The player selects the save option then the system saves the current state of the game.
+
+Extensions/Alternative Flows: 
+-- If there's already a save file associated with the character, a dialog will appear confirming if the player wants to overwrite the old saved state.
+-- An error occurs disallowing the player to save and nothing is done.

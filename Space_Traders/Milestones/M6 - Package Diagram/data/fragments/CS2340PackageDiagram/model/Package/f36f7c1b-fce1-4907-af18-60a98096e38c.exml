@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SolarSystem" version="3">
+  <DEPS>
+    <ID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+    <PID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SolarSystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

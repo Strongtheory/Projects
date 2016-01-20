@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Domain" version="3">
+  <DEPS>
+    <ID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+    <COMPID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+    <COMPID name="Goods" mc="Package" uid="cc7f8819-5b8b-4b53-82a7-a2c47ce2f037"/>
+    <COMPID name="Planet" mc="Package" uid="3c87ccbd-af82-4ffc-b576-fd123467fb49"/>
+    <COMPID name="Player" mc="Package" uid="5216b520-e945-454f-a76d-5f07c994fff1"/>
+    <COMPID name="Ship" mc="Package" uid="896312ee-228b-478c-98fb-81a10832b436"/>
+    <COMPID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+    <COMPID name="StockMarket" mc="Package" uid="5ae1ce35-e8c3-40cb-b555-8551c8b58c9a"/>
+    <EXTID name="Persistence" mc="Package" uid="8b0c1445-39ef-4ce6-9e63-49c4c3fa684e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+    <PID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Domain]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Player" mc="Package" uid="5216b520-e945-454f-a76d-5f07c994fff1"/>
+        <COMPID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+        <COMPID name="Planet" mc="Package" uid="3c87ccbd-af82-4ffc-b576-fd123467fb49"/>
+        <COMPID name="SolarSystem" mc="Package" uid="f36f7c1b-fce1-4907-af18-60a98096e38c"/>
+        <COMPID name="StockMarket" mc="Package" uid="5ae1ce35-e8c3-40cb-b555-8551c8b58c9a"/>
+        <COMPID name="Goods" mc="Package" uid="cc7f8819-5b8b-4b53-82a7-a2c47ce2f037"/>
+        <COMPID name="Ship" mc="Package" uid="896312ee-228b-478c-98fb-81a10832b436"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="1a604e61-6651-4b2c-ad92-87edf6dfbb91"/>
+          <PID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Persistence" mc="Package" uid="8b0c1445-39ef-4ce6-9e63-49c4c3fa684e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

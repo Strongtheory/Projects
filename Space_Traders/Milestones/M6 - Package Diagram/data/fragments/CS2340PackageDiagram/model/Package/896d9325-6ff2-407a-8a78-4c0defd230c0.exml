@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UI" version="3">
+  <DEPS>
+    <ID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+    <COMPID name="JavaFX" mc="Package" uid="d4082a36-f87b-4788-b7e2-f5f6311a9c53"/>
+    <EXTID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+    <PID name="cs2340packagediagram" mc="Package" uid="9d6ff1d1-540d-42ca-84fb-12666e3aa5ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UI]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JavaFX" mc="Package" uid="d4082a36-f87b-4788-b7e2-f5f6311a9c53"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Dependency" uid="8a332d65-68b4-4a07-b1ff-0a4709265bd2"/>
+          <PID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Controllers" mc="Package" uid="2960c43b-5c27-46cc-a3db-7400c3d49e15"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

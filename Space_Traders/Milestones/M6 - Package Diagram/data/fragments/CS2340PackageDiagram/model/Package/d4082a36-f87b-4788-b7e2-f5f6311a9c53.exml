@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JavaFX" version="3">
+  <DEPS>
+    <ID name="JavaFX" mc="Package" uid="d4082a36-f87b-4788-b7e2-f5f6311a9c53"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="JavaFX" mc="Package" uid="d4082a36-f87b-4788-b7e2-f5f6311a9c53"/>
+    <PID name="UI" mc="Package" uid="896d9325-6ff2-407a-8a78-4c0defd230c0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[JavaFX]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

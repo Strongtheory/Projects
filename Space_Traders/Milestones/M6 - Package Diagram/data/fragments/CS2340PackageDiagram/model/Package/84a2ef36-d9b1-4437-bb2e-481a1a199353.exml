@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Galaxy" version="3">
+  <DEPS>
+    <ID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Galaxy" mc="Package" uid="84a2ef36-d9b1-4437-bb2e-481a1a199353"/>
+    <PID name="Domain" mc="Package" uid="0c162ae2-7dd2-4fc6-8ff9-25e6e1ef750a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Galaxy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

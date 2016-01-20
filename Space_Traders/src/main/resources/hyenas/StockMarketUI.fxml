@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" styleClass="default-background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hyenas.StockMarketController">
+    <children>
+        <VBox fx:id="boxPane" AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" >
+            <children>
+                <BorderPane prefHeight="60">
+                    <top>
+                        <!--Used as padding so title label appears in center-->
+                        <Pane prefHeight="70.0"></Pane>
+                    </top>
+                    <center>
+                        <Label fx:id="titleLabel" text="Stock Market"></Label>
+                    </center>
+                </BorderPane>
+               
+                <BorderPane fx:id="borderPane">
+                    <!--Added Programatically-->
+                </BorderPane>
+               
+                <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="60">
+                    <children>
+                        <Button fx:id="backButton" styleClass="standard-button" prefHeight="37.0" prefWidth="143.0" mnemonicParsing="false" onAction="#goBack" text="Back" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

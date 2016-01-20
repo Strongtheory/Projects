@@ -1,0 +1,24 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.java text
+*.fxml text
+*.xml text
+*.gradle text
+*.css text
+*.exml text
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.db binary
+*.otf binary
+*.ttf binary
+*.eot binary
+
+*.0 binary
+*.t binary
+*.blob binary
+*.dat binary

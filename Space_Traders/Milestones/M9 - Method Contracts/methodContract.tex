@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex,
+            pdfauthor={Saikrishna Arcot},
+            pdftitle={M9 - Method Contract},
+            pdfproducer={Latex with hyperref},
+            pdfcreator={pdflatex}]{hyperref}
+
+\title{M9 - Method Contract}
+\date{10/29/14}
+\author{Saikrishna Arcot}
+
+\begin{document}
+\maketitle
+
+\textbf{Operation:} \texttt{+ travelToSystem(solarSystem: SolarSystem, solarSystemButton: Button)}, where \texttt{travelToSystem} is a public instance method of \texttt{MapUIController}, where \texttt{solarSystem} is a valid solar system object that is located in this galaxy and \texttt{solarSystemButton} is a valid button clicked by the user to travel to the solar system.
+
+\textbf{Preconditions:} The player has enough fuel to travel to the solar system. The player has paid any and all rents (mercenaries, etc.).
+
+\textbf{Postconditions:} The player's ship's fuel has been deducted. The player may or may not be at their selected solar system, depending on whether or not they had a random encounter and the actions they chose. The player's number of credits and the player's ship's health may have been changed if there was a random encounter. The player's current planet will be changed to match a planet in the new solar system. All other attributes of the player and player's ship will be unaffected. Finally, the user will be on the planet navigation screen.
+
+\end{document}
