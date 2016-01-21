@@ -6,4 +6,11 @@
 * RxP: This is a sophisticated File Transfer Protocol written in Java based on UDP. The mechanism for handling
        packet integrity, ensuring delivery, and followups is through a custom written algorithm and checksum. This 
        project illustrates that through custom algorithms it is possible to make UDP reliable. (Not necessarily TCP)
-* 
+* Space Traders: This project was a team based game developed using Java FX. We used many different libraries and concepts
+                 such as caching, memory management, lifecycles, multi-threading, cross-platform support, database integration,
+                 animations, etc. I was specifically responsible for database integration as well as multi-threading.
+* Space Traders-QT: This is a QT(C++ GUI) implentation of the original Space Traders including all features. This version is able                     to run on all major mobile platforms as well as major Operating Systems.
+* VRDart: This is a virtual reality game written in C++ using various computer vision libraries. The game is run through
+          through a projector where targets side-scroll across the screen and players must through an object and hit
+          the target in order to gain points. After 10 non-consecutive misses, the game ends. This game does not have a lifecycle
+          but is simply desigined to demonstrate computer vision capabilities. This project was written during a hackathon.
