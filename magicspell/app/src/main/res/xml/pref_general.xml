@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <PreferenceCategory
+        android:title="@string/opacity_header"
+        android:key="opacity_cat">
+        <com.postgrid.magicspell.SeekBarPreference
+            android:defaultValue="100"
+            android:title="@string/opacity_rule"
+            android:key="seekBar">
+        </com.postgrid.magicspell.SeekBarPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/resizing_header"
+        android:key="resizing_cat">
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

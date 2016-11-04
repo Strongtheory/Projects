@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='description' content='RoomFinders API Documentation'>
+        <meta name='author' content='Alex'>
+        <title>RoomFinders API Documentation</title>
+        <link href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="/static/images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/static/images/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/static/images/favicon-16x16.png" sizes="16x16">
+        <link rel="shortcut icon" href="/static/images/favicon.ico">
+        <style type='text/css'>
+            body { line-height: 1.6em; }
+            .container { margin-bottom: 20px; max-width: 900px; }
+            nostrong { font-weight: normal; }
+            .lead { margin: 20px 0px 10px 0px; }
+            a.code { color: #c7254e; }
+            pre.code { max-width: 790px; overflow: auto; word-wrap: normal; white-space: pre; }
+            footer { line-height: 1.8em; }
+            textarea { outline: none; border: none; background-color: #f5f5f5; resize: none; }
+        </style>
+    </head>
+
+    <body>
+        <div class='container'>
+
+            <div class='page-header text-center'>
+                <h1>RoomFinders API Documentation</h1>
+                <p class='lead'>API for finding rooms on campus.</p>
+            </div>
+
+            <h2>Requests</h2>
+
+            <ul>
+
+            <li><h3>Endpoints</h3></li>
+
+            <ul>
+                <li><code>/buildings</code> - Returns all campus buildings.</li>
+                <li><code>/buildings?location=33.77689,-84.39779</code> - Returns campus buildings nearby a given location.</li>
+                <li><code>/buildings/{building_id}</code> - Returns information about a single campus building.</li>
+                <li><code>/buildings/{building_id}/rooms</code> - Returns the rooms for a given building.</li>
+            </ul>
+
+            <li><h3>Examples</h3></li>
+
+            <ul>
+                <li><a class='code' href='/buildings' target='_blank'><code>https://roomfinders.herokuapp.com/buildings</code></a></li>
+                <li><a class='code' href='/buildings?location=33.77689,-84.39779' target='_blank'><code>https://roomfinders.herokuapp.com/buildings?location=33.77689,-84.39779</code></a></li>
+                <li><a class='code' href='/buildings/63' target='_blank'><code>https://roomfinders.herokuapp.com/buildings/63</code></a></li>
+                <li><a class='code' href='/buildings/63/rooms' target='_blank'><code>https://roomfinders.herokuapp.com/buildings/63/rooms</code></a></li>
+            </ul>
+
+            </ul>
+
+            <hr/>
+
+            <h2>Responses</h2>
+
+            <ul>
+
+            <li><h3>Format</h3></li>
+
+            <ul>
+                <li>All responses are returned in <code>JSON</code> format.</li>
+            </ul>
+
+            <li><h3>Status Codes</h3></li>
+
+            <ul>
+                <li><code>200 OK</code> - request was successfully returned.</li>
+                <li><code>400 Bad Request</code> - invalid request data.</li>
+                <li><code>404 Not Found</code> - requested data not found.</li>
+            </ul>
+
+            <li><h3>Example</h3></li>
+
+<pre class='code'>
+<textarea rows="22" cols="90" disabled>
+> GET /buildings/63 HTTP/1.1
+> Host: roomfinders.herokuapp.com
+> Cache-Control: no-cache
+>
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Server: gunicorn/18.0
+< Date: Fri, 07 Nov 2014 22:41:30 GMT
+< Content-Type: text/xml; charset=utf-8
+< Content-Length: 350
+< Via: 1.1 vegur
+<
+
+{
+    "id": 63,
+    "name": "Clough Undergraduate Learning Commons",
+    "address": "266 4th St NW\nAtlanta, GA 30313"
+    "latitude": 33.7745,
+    "longitude": -84.3964,
+}
+</textarea>
+</pre>
+
+            </ul>
+
+            <hr/>
+
+            <footer>
+                <p class='pull-right'><a href='#'>Back to top</a></p>
+                <p>Tweet <a href='http://twitter.com/iMinichrispy' target='_blank'>@iMinichrispy</a> or <a href='mailto:alex@iminichrispy.com?subject=GT%20Buses%20API'>email me</a> for any questions/suggestions/comments.</p>
+                <p>Copyright &copy; 2015 Alex Perez.</p>
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>
