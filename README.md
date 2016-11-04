@@ -92,4 +92,11 @@ List of Relevant Projects I have worked on.
           and libraries such as OpenCV to solve Raven's Progressive Matrices problems. This is to
           understand and experiment various knowledge representations in AI.</td>
     </tr>
+    <tr>
+      <td>Train</td>
+      <td>MySQL database application that simulates a Train reservation system with all base edge cases.</td>
+      <td align="center"> Yes (2) </td>
+      <td>This application is a fully functioning mockup train reservation system to experiment with a server
+          MySQL database application.</td>
+    </tr>
   </table>
