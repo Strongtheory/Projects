@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.roomfinder.BuildingListActivity">
+    tools:context="com.roomfinder.NavigationActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/building_toolbar"
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
@@ -32,13 +32,13 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <EditText
-            android:id="@+id/building_search_bar"
+            android:id="@+id/entrance_search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textVisiblePassword" />
 
         <ListView
-            android:id="@+id/building_list"
+            android:id="@+id/entrance_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></ListView>
     </LinearLayout>

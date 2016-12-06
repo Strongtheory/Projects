@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pathfinder</string>
+    <string name="app_name">Roomfinder</string>
 
     <!-- Buildings -->
     <string name="buildings">List of Buildings</string>
@@ -7,4 +7,6 @@
     <!-- onClick -->
     <string name="transition">goToRooms</string>
     <string name="title_activity_room_list">RoomListActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_entrance_list">EntranceListActivity</string>
 </resources>

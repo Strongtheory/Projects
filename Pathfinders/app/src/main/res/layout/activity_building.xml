@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.roomfinder.BuildingListActivity">
+    tools:context="com.roomfinder.BuildingActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/building_toolbar"
+            android:id="@+id/room_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -30,15 +30,41 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:id="@+id/buildingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="4dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/buildingImage"
+                android:layout_width="500px"
+                android:layout_height="500px"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/navButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Navigate"
+                android:drawableTop="@drawable/ic_navigation_black_48dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
 
         <EditText
-            android:id="@+id/building_search_bar"
+            android:id="@+id/room_search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textVisiblePassword" />
 
         <ListView
-            android:id="@+id/building_list"
+            android:id="@+id/room_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></ListView>
     </LinearLayout>
