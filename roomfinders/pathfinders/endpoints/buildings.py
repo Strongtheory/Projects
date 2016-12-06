@@ -74,4 +74,6 @@ def get_building_rooms(building_id=None):
     
     rooms = [r.to_dict() for r in db_building.rooms]
     
-    return Response(json.dumps(rooms), mimetype='application/json')
+    sorted_rooms = sorted(rooms, key=lambda e: e['roomNumber'])
+    
+    return Response(json.dumps(sorted_rooms), mimetype='application/json')

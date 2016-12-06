@@ -1,0 +1,105 @@
+GET /directions?building=25&entrance=clough_entrance_node_id&room=clough_room_node_id
+{
+    "buildingEntrance": {
+        "name": "West",
+        "node": "clough_entrance_node_id"
+    },
+    "destinationBuilding": {
+        "id": "25",
+        "name": "Clough Undergraduate Learning Commons",
+        "latitude": 34.13123,
+        "longitude": -84.1313123,
+        "address": "123 Ferst Dr\nAtlanta, GA 30123",
+        "imageURL": "http://imageurl.com",
+        "entrances": [
+            {
+                "name": "North",
+                "node": "clough_node_north_entrance_id"
+            },
+            {
+                "name": "South",
+                "node": "clough_node_south_entrance_id"
+            }
+        ]
+    },
+    "destinationRoom": {
+        "roomNumber": "123",
+        "node": "clough_room_node_id",
+    },
+    "totalDistance": 80,
+    "estimatedTravelTime": 5,
+    "steps": [
+        {
+            "action": 1,
+            "distance": 40,
+            "startingNode": {
+                "id": "clough_node_1",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            },
+            "endingNode": {
+                "id": "clough_node_2",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            }
+        },
+        {
+            "action": 2,
+            "distance": 30,
+            "startingNode": {
+                "id": "clough_node_2",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            },
+            "endingNode": {
+                "id": "clough_node_3",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            }
+        },
+        {
+            "action": 5,
+            "distance": 10,
+            "startingNode": {
+                "id": "clough_node_3",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            },
+            "endingNode": {
+                "id": "clough_node_4",
+                "latitude": 33.774945,
+                "longitude": -84.396693,
+                "floor": 1,
+                "entrance": true,
+                "rooms": [
+                    "123"
+                ]
+            }
+        }
+    ]
+}

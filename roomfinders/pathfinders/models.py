@@ -15,6 +15,7 @@ class Building(db.Model):
     longitude = db.Column(db.Float)
     address = db.Column(db.String(250))
     rooms = db.relationship('Room', backref='building')
+    entrances = db.relationship('Entrance', backref='building')
     imageURL = db.Column(db.Text)
 
     def __init__(self, name, address):
@@ -25,14 +26,22 @@ class Building(db.Model):
         return '<Building: %s, %s>' % (self.name, self.address)
 
     def to_dict(self):
-        return {
+        building = {
             'id': self.id,
             'name': self.name,
             'latitude': self.latitude,
             'longitude': self.longitude,
             'address': self.address,
-            'imageURL': self.imageURL
+            'imageURL': self.imageURL,
         }
+        
+        if self.entrances:
+            entrances = []
+            for entrance in self.entrances:
+                entrances.append(entrance.to_dict())
+            building['entrances'] = entrances
+        
+        return building
     
     @staticmethod
     def dict_to_building(building):
@@ -41,27 +50,57 @@ class Building(db.Model):
         db_building.longitude = building['longitude']
         db_building.imageURL = building['imageURL']
         
-        rooms = building.get('rooms')
-        for room in rooms or []:
-            db_room = Room(room)
-            db_building.rooms.append(db_room)
+        entrances = building.get('entrances')
+        for entrance in entrances or []:
+            db_entrance = Entrance(entrance['name'], entrance['node'])
+            db_building.entrances.append(db_entrance)
+        
+        nodes = building.get('nodes', {})
+        for node, node_dict in nodes.iteritems():
+            # node_id = node
+            # latitude = node_dict['latitude']
+            # longitude = node_dict['longitude']
+            # floor = node_dict['floor']
+            rooms = node_dict.get('rooms')
+            for room in rooms or []:
+                db_room = Room(room, node)
+                db_building.rooms.append(db_room)
         
         return db_building
 
 class Room(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    room_number = db.Column(db.String(20))
+    room_number = db.Column(db.String(20), primary_key=True)
+    node = db.Column(db.String(70))
     building_id = db.Column(db.Integer, db.ForeignKey('building.id'))
 
-    def __init__(self, room_number):
+    def __init__(self, room_number, node):
         self.room_number = room_number
+        self.node = node
+    
+    def __repr__(self):
+        return '<Room Number: %s (%s), building_id: %s>' % (self.room_number, self.node, self.building_id)
+    
+    def to_dict(self):
+        return {
+            'roomNumber': self.room_number,
+            'node': self.node
+        }
+
+class Entrance(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(70))
+    node = db.Column(db.String(70))
+    building_id = db.Column(db.Integer, db.ForeignKey('building.id'))
+
+    def __init__(self, name, node):
+        self.name = name
+        self.node = node
 
     def __repr__(self):
-        return '<Room Number: %s>' % (self.room_number)
+        return '<Entrance: %s>' % (self.name)
 
     def to_dict(self):
         return {
-            'id': self.id,
-            'roomNumber': self.room_number,
-            'buildingId': self.building_id
+            'name': self.name,
+            'node': self.node
         }

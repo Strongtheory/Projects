@@ -6,8 +6,7 @@ from pathfinders.models import *
 @app.route('/updateBuildings', methods=['GET'])
 def update_buildings():
     print 'Updating buildings...'
-    db.engine.execute("DROP TABLE IF EXISTS ROOM")
-    db.engine.execute("DROP TABLE IF EXISTS BUILDING")
+    # db.engine.execute("DROP TABLE IF EXISTS room, building, entrance CASCADE")
     db.create_all()
     
     with open('sources/buildings.json') as buildings_file:    

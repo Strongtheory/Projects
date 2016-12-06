@@ -17,6 +17,7 @@ for building in buildings:
     address = building['address']
     imageURL = building['imageURL']
     rooms = building.get('rooms')
+    entrances = building.get('entrances')
     
     new_building = {
         'name': name,
@@ -25,20 +26,6 @@ for building in buildings:
         'address': address,
         'imageURL': imageURL,
     }
-    
-    if not rooms:
-        new_rooms = []
-        num_rooms = randint(3, 50)
-        for i in range(0, num_rooms):
-            room_number = str(randint(100, 4000))
-            new_rooms.append(room_number)
-        new_rooms.sort(key=int)
-        
-        possible_endings = ['', '', '', '', '', '', '', '', '', '', '', 'A', 'B', 'C']
-        for i in range(0, len(new_rooms)):
-            new_rooms[i] = new_rooms[i] + possible_endings[randint(0, len(possible_endings) - 1)]
-        
-        new_building['rooms'] = new_rooms
     
     new_buildings.append(new_building)
 
