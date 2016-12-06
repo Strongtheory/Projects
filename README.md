@@ -99,4 +99,22 @@ List of Relevant Projects I have worked on.
       <td>This application is a fully functioning mockup train reservation system to experiment with a server
           MySQL database application.</td>
     </tr>
+    <tr>
+      <td>Visual Agent 1</td>
+      <td>Artificial Visual Agent that uses knowledge based AI techniques and representations to solve 2x2 Raven's        Progressive Matrices Problems.</td>
+      <td align="center"> No </td>
+      <td>This agent is designed to test Knowledge theories on solving human intelligence problems.</td>
+    </tr>
+    <tr>
+      <td>Visual Agent 2</td>
+      <td>Artificial Visual Agent that uses knowledge based AI techniques and representations to solve simple 3x3 Raven's        Progressive Matrices Problems.</td>
+      <td align="center"> No </td>
+      <td>This agent is designed to test Knowledge theories on solving human intelligence problems.</td>
+    </tr>
+    <tr>
+      <td>Visual Agent 3</td>
+      <td>Artificial Visual Agent that uses knowledge based AI techniques and representations to solve advanced 3x3 Raven's        Progressive Matrices Problems.</td>
+      <td align="center"> No </td>
+      <td>This agent is designed to test Knowledge theories on solving human intelligence problems.</td>
+    </tr>
   </table>
