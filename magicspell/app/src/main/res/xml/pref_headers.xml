@@ -7,10 +7,10 @@
         android:icon="@drawable/ic_info_black_24dp"
         android:title="@string/pref_header_opacity" />
 
-    <header 
-        android:fragment="com.postgrid.magicspell.KeyboardSettingsActivity$GeneralPreferenceFragment"
+    <header
+        android:fragment="com.postgrid.magicspell.KeyboardSettingsActivity$ColorPreferenceFragment"
         android:icon="@drawable/ic_info_black_24dp"
-        android:title="@string/pref_header_resizing" />
+        android:title="@string/pref_header_coloring" />
 
 
 </preference-headers>

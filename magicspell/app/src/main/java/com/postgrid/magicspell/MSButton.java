@@ -1,9 +1,20 @@
 package com.postgrid.magicspell;
 
 /**
- * Created by connor on 9/2/16.
+ * <h1>MSButton</h1>
+ * MSButton enum class represents all the keys on the keyboard.
+ * This includes the first ten letters (A-J), numbers (0-9) and
+ * modifier keys.
+ * <p>
+ * The enum class is used to index the buttons appropriately
+ * when used or pressed on.
+ *
+ * @author  connor
+ * @version 0.1
+ * @since   9/2/2016
  */
-public enum MSButton {
+
+enum MSButton {
     BUTTON_1,
     BUTTON_2,
     BUTTON_3,
@@ -19,5 +30,7 @@ public enum MSButton {
     BUTTON_PERIOD,
     BUTTON_COMMA,
     BUTTON_BACKSPACE,
+    BUTTON_NUMBERS,
+    BUTTON_RESIZE,
     BUTTON_DONE
 }

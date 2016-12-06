@@ -489,6 +489,22 @@ public class MSKeyboardService extends InputMethodService {
                 minY = finger.y;
         }
 
+<<<<<<< HEAD
+
+
+=======
+        for (int i = 0; i < fingers.length/2; i++) {
+            int j = fingers.length-1-i;
+            Log.d(TAG, "Finger Location " + (i) + ": " + fingers[i]);
+            editor.putInt("point" + i + "x", fingers[i].x);
+            editor.putInt("point" + j + "x", fingers[j].x);
+            editor.putInt("point" + i + "y", fingers[i].y - minY + 50);
+            editor.putInt("point" + j + "y", fingers[i].y - minY + 50);
+
+        }
+
+        editor.putBoolean("resized", true);
+>>>>>>> 892ec68844f08f5dd1805d53cb005724f60a6f4c
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             editor.putInt("pHeight", maxY - minY + (int)(getResources().getDisplayMetrics().heightPixels /5.0f) + 50);
             for (int i = 0; i < fingers.length/2; i++) {

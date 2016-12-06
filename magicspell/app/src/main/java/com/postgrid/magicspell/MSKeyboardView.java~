@@ -474,23 +474,23 @@ public class MSKeyboardView extends View implements SharedPreferences.OnSharedPr
             int heightModifier = 0;
             switch (button) {
                 case 0: case 9:
-                    heightModifier = 0;
+                    hightModifier = 0;
                     break;
                 case 1: case 8: case 3: case 6:
-                    heightModifier = -1;
+                    hightModifier = -1;
                     break;
                 case 2: case 7:
-                    heightModifier = -2;
+                    hightModifier = -2;
                     break;
                 case 4:case 5:
-                    heightModifier = 1;
+                    hightModifier = 1;
                     break;
             }
 
 
             int midPoint = (int) (boxWidth * button + boxWidth * 0.5f);
             int x = midPoint - (circleWidth / 2);
-            int y = (myHeight / 2) - (circleWidth / 2) + heightModifier*myHeight / heightDifference;
+            int y = (myHeight / 2) - (circleWidth / 2) + hightModifier*myHeight / hightDifference;
             circles[button].setBounds(x, y, x + circleWidth, y + circleWidth);
         }
     }

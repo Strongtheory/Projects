@@ -13,11 +13,4 @@
             android:key="seekBar">
         </com.postgrid.magicspell.SeekBarPreference>
     </PreferenceCategory>
-    <PreferenceCategory
-        android:title="@string/resizing_header"
-        android:key="resizing_cat">
-    </PreferenceCategory>
-
-
-
 </PreferenceScreen>

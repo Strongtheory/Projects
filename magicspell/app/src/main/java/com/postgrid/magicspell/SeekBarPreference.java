@@ -1,4 +1,5 @@
 package com.postgrid.magicspell;
+
 /**
  * credit to afarber on github
  * https://github.com/afarber/android-newbie/tree/master/MyPrefs
@@ -8,15 +9,25 @@ import android.preference.Preference;
 import android.widget.SeekBar;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.preference.Preference;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.SeekBar;
-import android.widget.SeekBar.OnSeekBarChangeListener;
 
+/**
+ * <h1>SeekBarPreference</h1>
+ * This class which extends Preference and implements SeekBar listener, handles
+ * the opacity setting of the keyboard.
+ * <p>
+ * This class is responsible for setting the opacity of the keyboard on the display.
+ * The view of the seekbar is separate from the keyboard and the value is persisted throughout
+ * the lifecycle of the application until changed again.
+ *
+ * @author Alex
+ * @version 0.1
+ * @since 9/22/2016
+ */
 public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
-    private SeekBar mSeekBar;
     private int mProgress;
+
 
     public SeekBarPreference(Context context) {
         this(context, null, 0);
@@ -26,7 +37,13 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
         this(context, attrs, 0);
     }
 
-    public SeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
+    /**
+     *
+     * @param context of the seekbar
+     * @param attrs associated with seekbar tag
+     * @param defStyle default style
+     */
+    private SeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setLayoutResource(R.layout.preference_seekbar);
     }
@@ -34,7 +51,7 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
     @Override
     protected void onBindView(View view) {
         super.onBindView(view);
-        mSeekBar = (SeekBar) view.findViewById(R.id.seekbar);
+        SeekBar mSeekBar = (SeekBar) view.findViewById(R.id.seekbar);
         mSeekBar.setProgress(mProgress);
         mSeekBar.setOnSeekBarChangeListener(this);
     }
@@ -64,7 +81,13 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
         setValue(restoreValue ? getPersistedInt(mProgress) : (Integer) defaultValue);
     }
 
-    public void setValue(int value) {
+    /**
+     * Sets the opacity value and persists
+     * Notifies whole application of change
+     *
+     * @param value to set for opacity
+     */
+    private void setValue(int value) {
         if (shouldPersist()) {
             persistInt(value);
         }

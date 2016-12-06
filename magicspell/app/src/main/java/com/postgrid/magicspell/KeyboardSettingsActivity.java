@@ -158,7 +158,9 @@ public class KeyboardSettingsActivity extends AppCompatPreferenceActivity {
         return PreferenceFragment.class.getName().equals(fragmentName)
                 || GeneralPreferenceFragment.class.getName().equals(fragmentName)
                 || DataSyncPreferenceFragment.class.getName().equals(fragmentName)
-                || NotificationPreferenceFragment.class.getName().equals(fragmentName);
+                || NotificationPreferenceFragment.class.getName().equals(fragmentName)
+                || ColorPreferenceFragment.class.getName().equals(fragmentName);
+
     }
 
 
@@ -254,4 +256,16 @@ public class KeyboardSettingsActivity extends AppCompatPreferenceActivity {
             return super.onOptionsItemSelected(item);
         }
     }
-}
+
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public static class ColorPreferenceFragment extends PreferenceFragment {
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            addPreferencesFromResource(R.xml.pref_color);
+            setHasOptionsMenu(true);
+
+        }
+    }
+
+    }
