@@ -117,4 +117,29 @@ List of Relevant Projects I have worked on.
       <td align="center"> No </td>
       <td>This agent is designed to test Knowledge theories on solving human intelligence problems.</td>
     </tr>
+    <tr>
+      <td>SupervisedLearning</td>
+      <td>Analysis of berkley datasets on Decision Trees. This include Decision Tree Neural Networks with pruning, boosted networks, Support Vector Machines, and k-nearest neighbords.</td>
+      <td align="center"> No </td>
+      <td>This file contains an in depth analysis plus source code (in the format of a jar) that parses and runs datasets on four algorithms. Analyis includes runtime, determinging overfitting, etc. There are a variety of modifications mentioned in the readme of the project.</td>
+    </tr>
+    <tr>
+      <td>UnsupervisedLearning</td>
+      <td>Analysis of berkley datasets with clustering and dimensionality reduction algorithms.</td>
+      <td align="center"> No </td>
+      <td>This file contains an in depth analysis plus source code (in the format of a jar) that parses and runs datasets on six unsupervised clustering and reduction algorithms. There are a variety of modifications mentioned in the readme of the project.</td>
+    </tr>
+    <tr>
+      <td>RandomizedOptimization</td>
+      <td>Analysis of berkley datasets on local random search algorithms such as simulated annealing, genetic algorithms, etc.</td>
+      <td align="center"> No </td>
+      <td>This file contains an in depth analysis plus source code (in the format of a jar) that parses and runs datasets on neural networks applied to local search algorithms. There are a variety of modifications mentioned in the readme of the project.</td>
+    </tr>
+    <tr>
+      <td>ReinforcementLearning</td>
+      <td>Analysis of berkley datasets on two unique Markov Decision Processes. (The algorithms I wrote are in the readme.)</td>
+      <td align="center"> No </td>
+      <td>This file contains an in depth analysis plus source code (in the format of a jar) that parses and runs datasets on neural networks applied to Markov Decision Process problems. There are a variety of modifications mentioned in the readme of the project.</td>
+    </tr>
   </table>
+</body>
