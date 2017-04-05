@@ -1,0 +1,183 @@
+Results for RHC:
+Correctly classified 3823.0 instances.
+Incorrectly classified 354.0 instances.
+Percent correctly classified: 91.525%
+Training time: 9.763 seconds
+Testing time: 0.023 seconds
+
+Results for SA:
+Correctly classified 3812.0 instances.
+Incorrectly classified 365.0 instances.
+Percent correctly classified: 91.262%
+Training time: 9.193 seconds
+Testing time: 0.011 seconds
+
+Results for GA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 211.383 seconds
+Testing time: 0.011 seconds
+
+-------------------------------------------------------
+
+Results for RHC:
+Correctly classified 3824.0 instances.
+Incorrectly classified 353.0 instances.
+Percent correctly classified: 91.549%
+Training time: 9.715 seconds
+Testing time: 0.025 seconds
+
+Results for SA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 9.082 seconds
+Testing time: 0.011 seconds
+
+Results for GA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 209.282 seconds
+Testing time: 0.012 seconds
+
+
+-------------------------------------------------------
+
+Results for RHC:
+Correctly classified 3832.0 instances.
+Incorrectly classified 345.0 instances.
+Percent correctly classified: 91.740%
+Training time: 9.807 seconds
+Testing time: 0.025 seconds
+
+Results for SA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 9.023 seconds
+Testing time: 0.011 seconds
+
+Results for GA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 208.710 seconds
+Testing time: 0.012 seconds
+
+-------------------------------------------------------
+
+Results for RHC:
+Correctly classified 3826.0 instances.
+Incorrectly classified 351.0 instances.
+Percent correctly classified: 91.597%
+Training time: 9.725 seconds
+Testing time: 0.022 seconds
+
+Results for SA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 9.044 seconds
+Testing time: 0.011 seconds
+
+Results for GA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 209.653 seconds
+
+-------------------------------------------------------
+
+Results for RHC:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 9.674 seconds
+Testing time: 0.026 seconds
+
+Results for SA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 9.052 seconds
+Testing time: 0.012 seconds
+
+Results for GA:
+Correctly classified 3813.0 instances.
+Incorrectly classified 364.0 instances.
+Percent correctly classified: 91.286%
+Training time: 208.595 seconds
+Testing time: 0.012 seconds
+
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

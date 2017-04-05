@@ -1,0 +1,1028 @@
+J48 pruned tree
+(0.1, 2, 3, 1)
+------------------
+: 0 (1809.0/120.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+Kappa statistic                          0     
+Mean absolute error                      0.1239
+Root mean squared error                  0.2489
+Relative absolute error                 99.6288 %
+Root relative squared error             99.9998 %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.5      1
+                 1         1          0.934     1         0.966      0.5      0
+Weighted Avg.    0.934     0.934      0.872     0.934     0.902      0.5  
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    0  120 |    a = 1
+    0 1689 |    b = 0
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.2, 2, 3, 1)
+------------------
+: 0 (1809.0/120.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+Kappa statistic                          0     
+Mean absolute error                      0.1239
+Root mean squared error                  0.2489
+Relative absolute error                 99.6288 %
+Root relative squared error             99.9998 %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.5      1
+                 1         1          0.934     1         0.966      0.5      0
+Weighted Avg.    0.934     0.934      0.872     0.934     0.902      0.5  
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    0  120 |    a = 1
+    0 1689 |    b = 0
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.3, 2, 3, 1)
+------------------
+
+Number of Leaves  : 	50
+
+Size of the tree : 	85
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1663               91.9292 %
+Incorrectly Classified Instances       146                8.0708 %
+Kappa statistic                          0.0562
+Mean absolute error                      0.117 
+Root mean squared error                  0.2683
+Relative absolute error                 94.1025 %
+Root relative squared error            107.8228 %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.058     0.02       0.175     0.058     0.088      0.668    1
+                 0.98      0.942      0.936     0.98      0.958      0.668    0
+Weighted Avg.    0.919     0.88       0.886     0.919     0.9        0.668
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    7  113 |    a = 1
+   33 1656 |    b = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.4, 2, 3, 1)
+------------------
+
+Number of Leaves  : 	54
+
+Size of the tree : 	93
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1659               91.7081 %
+Incorrectly Classified Instances       150                8.2919 %
+Kappa statistic                          0.0915
+Mean absolute error                      0.1115
+Root mean squared error                  0.2682
+Relative absolute error                 89.663  %
+Root relative squared error            107.762  %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.092     0.024      0.212     0.092     0.128      0.681    1
+                 0.976     0.908      0.938     0.976     0.956      0.681    0
+Weighted Avg.    0.917     0.85       0.89      0.917     0.902      0.681
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   11  109 |    a = 1
+   41 1648 |    b = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.5, 2, 3, 1)
+------------------
+
+Number of Leaves  : 	54
+
+Size of the tree : 	93
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1664               91.9845 %
+Incorrectly Classified Instances       145                8.0155 %
+Kappa statistic                          0.1171
+Mean absolute error                      0.1092
+Root mean squared error                  0.2665
+Relative absolute error                 87.867  %
+Root relative squared error            107.0903 %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.108     0.022      0.255     0.108     0.152      0.661    1
+                 0.978     0.892      0.939     0.978     0.958      0.661    0
+Weighted Avg.    0.92      0.834      0.894     0.92      0.904      0.661
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   13  107 |    a = 1
+   38 1651 |    b = 0
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 unpruned tree
+------------------
+
+Number of Leaves  : 	88
+
+Size of the tree : 	147
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1650               91.2106 %
+Incorrectly Classified Instances       159                8.7894 %
+Kappa statistic                          0.1073
+Mean absolute error                      0.1105
+Root mean squared error                  0.2776
+Relative absolute error                 88.8596 %
+Root relative squared error            111.5527 %
+Total Number of Instances             1809     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.117     0.031      0.209     0.117     0.15       0.632    1
+                 0.969     0.883      0.939     0.969     0.954      0.632    0
+Weighted Avg.    0.912     0.827      0.891     0.912     0.9        0.632
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   14  106 |    a = 1
+   53 1636 |    b = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.1, 2, 3, 1)
+------------------
+: 0 (775.0/50.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+Kappa statistic                          0     
+Mean absolute error                      0.1207
+Root mean squared error                  0.2457
+Relative absolute error                 99.1096 %
+Root relative squared error             99.9987 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.498    1
+                 1         1          0.935     1         0.967      0.498    0
+Weighted Avg.    0.935     0.935      0.875     0.935     0.904      0.498
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0  50 |   a = 1
+   0 725 |   b = 0
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.2, 2, 3, 1)
+------------------
+: 0 (775.0/50.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         723               93.2903 %
+Incorrectly Classified Instances        52                6.7097 %
+Kappa statistic                         -0.005 
+Mean absolute error                      0.121 
+Root mean squared error                  0.2511
+Relative absolute error                 99.3243 %
+Root relative squared error            102.1989 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0.003      0         0         0          0.492    1
+                 0.997     1          0.935     0.997     0.965      0.492    0
+Weighted Avg.    0.933     0.936      0.875     0.933     0.903      0.492
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0  50 |   a = 1
+   2 723 |   b = 0
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.3, 2, 3, 1)
+------------------
+: 0 (775.0/50.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         718               92.6452 %
+Incorrectly Classified Instances        57                7.3548 %
+Kappa statistic                          0.0705
+Mean absolute error                      0.1197
+Root mean squared error                  0.2602
+Relative absolute error                 98.3044 %
+Root relative squared error            105.9268 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.06      0.014      0.231     0.06      0.095      0.536    1
+                 0.986     0.94       0.938     0.986     0.962      0.536    0
+Weighted Avg.    0.926     0.88       0.893     0.926     0.906      0.536
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   3  47 |   a = 1
+  10 715 |   b = 0
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.4, 2, 3, 1)
+------------------
+
+Number of Leaves  : 	13
+
+Size of the tree : 	23
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         714               92.129  %
+Incorrectly Classified Instances        61                7.871  %
+Kappa statistic                          0.0327
+Mean absolute error                      0.1161
+Root mean squared error                  0.2697
+Relative absolute error                 95.3131 %
+Root relative squared error            109.7912 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.04      0.018      0.133     0.04      0.062      0.536    1
+                 0.982     0.96       0.937     0.982     0.959      0.536    0
+Weighted Avg.    0.921     0.899      0.885     0.921     0.901      0.536
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   2  48 |   a = 1
+  13 712 |   b = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 pruned tree
+(0.5, 2, 3, 1)
+------------------
+
+Number of Leaves  : 	20
+
+Size of the tree : 	35
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         712               91.871  %
+Incorrectly Classified Instances        63                8.129  %
+Kappa statistic                          0.1222
+Mean absolute error                      0.1105
+Root mean squared error                  0.2726
+Relative absolute error                 90.7242 %
+Root relative squared error            110.9546 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.12      0.026      0.24      0.12      0.16       0.568    1
+                 0.974     0.88       0.941     0.974     0.957      0.568    0
+Weighted Avg.    0.919     0.825      0.896     0.919     0.906      0.568
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   6  44 |   a = 1
+  19 706 |   b = 0
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+J48 unpruned tree
+------------------
+
+Number of Leaves  : 	64
+
+Size of the tree : 	107
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         701               90.4516 %
+Incorrectly Classified Instances        74                9.5484 %
+Kappa statistic                          0.1095
+Mean absolute error                      0.1131
+Root mean squared error                  0.291 
+Relative absolute error                 92.8591 %
+Root relative squared error            118.4432 %
+Total Number of Instances              775     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.14      0.043      0.184     0.14      0.159      0.563    1
+                 0.957     0.86       0.942     0.957     0.949      0.563    0
+Weighted Avg.    0.905     0.807      0.893     0.905     0.898      0.563
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   7  43 |   a = 1
+  31 694 |   b = 0
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Boosting
+Training
+--------------------------------------------------------------------------------------------------------------------------------------
+0.1
+Number of Leaves  : 	110
+
+Size of the tree : 	203
+
+
+Weight: 3.59
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.57 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1660               91.7634 %
+Incorrectly Classified Instances       149                8.2366 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.2
+Number of Leaves  : 	117
+
+Size of the tree : 	203
+
+
+Weight: 3.75
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.32 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1648               91.1001 %
+Incorrectly Classified Instances       161                8.8999 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.3
+Number of Leaves  : 	122
+
+Size of the tree : 	217
+
+
+Weight: 3.89
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.35 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1656               91.5423 %
+Incorrectly Classified Instances       153                8.4577 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.4
+Number of Leaves  : 	101
+
+Size of the tree : 	179
+
+
+Weight: 3.55
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.33 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1646               90.9895 %
+Incorrectly Classified Instances       163                9.0105 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.5
+Number of Leaves  : 	147
+
+Size of the tree : 	251
+
+
+Weight: 3.61
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.36 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1644               90.8789 %
+Incorrectly Classified Instances       165                9.1211 %
+--------------------------------------------------------------------------------------------------------------------------------------
+unpruned
+Number of Leaves  : 	130
+
+Size of the tree : 	235
+
+
+Weight: 4.13
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.27 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1658               91.6528 %
+Incorrectly Classified Instances       151                8.3472 %
+
+Boosting
+Testing
+--------------------------------------------------------------------------------------------------------------------------------------
+0.1
+Number of Leaves  : 	62
+
+Size of the tree : 	105
+
+
+Weight: 4.0
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         713               92      %
+Incorrectly Classified Instances        62                8      %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.2
+Number of Leaves  : 	51
+
+Size of the tree : 	93
+
+
+Weight: 3.55
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         714               92.129  %
+Incorrectly Classified Instances        61                7.871  %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.3
+Number of Leaves  : 	42
+
+Size of the tree : 	69
+
+
+Weight: 3.58
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         718               92.6452 %
+Incorrectly Classified Instances        57                7.3548 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.4
+Number of Leaves  : 	43
+
+Size of the tree : 	77
+
+
+Weight: 3.98
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         710               91.6129 %
+Incorrectly Classified Instances        65                8.3871 %
+--------------------------------------------------------------------------------------------------------------------------------------
+0.5
+Number of Leaves  : 	49
+
+Size of the tree : 	85
+
+
+Weight: 3.34
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.12 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         711               91.7419 %
+Incorrectly Classified Instances        64                8.2581 %
+--------------------------------------------------------------------------------------------------------------------------------------
+unpruned
+
+Number of Leaves  : 	79
+
+Size of the tree : 	133
+
+
+Weight: 4.51
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         712               91.871  %
+Incorrectly Classified Instances        63                8.129  %
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+KNN Unweighted Training
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 10 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1676               92.6479 %
+Incorrectly Classified Instances       133                7.3521 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 20 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1685               93.1454 %
+Incorrectly Classified Instances       124                6.8546 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 30 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1690               93.4218 %
+Incorrectly Classified Instances       119                6.5782 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 40 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 50 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+Weighted Training
+
+IB1 instance-based classifier
+using 10 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1683               93.0348 %
+Incorrectly Classified Instances       126                6.9652 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 20 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 30 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 40 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 50 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1689               93.3665 %
+Incorrectly Classified Instances       120                6.6335 %
+--------------------------------------------------------------------------------------------------------------------------------------
+
+KNN Unwieghted Testing
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 10 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         723               93.2903 %
+Incorrectly Classified Instances        52                6.7097 %
+
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 20 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 30 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 40 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+Kappa statistic                          0     
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 50 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+Weighted Testing
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 10 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         723               93.2903 %
+Incorrectly Classified Instances        52                6.7097 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 20 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         724               93.4194 %
+Incorrectly Classified Instances        51                6.5806 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 30 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 40 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+IB1 instance-based classifier
+using 50 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         725               93.5484 %
+Incorrectly Classified Instances        50                6.4516 %
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
