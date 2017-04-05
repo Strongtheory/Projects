@@ -141,5 +141,11 @@ List of Relevant Projects I have worked on.
       <td align="center"> No </td>
       <td>This file contains an in depth analysis plus source code (in the format of a jar) that parses and runs datasets on neural networks applied to Markov Decision Process problems. There are a variety of modifications mentioned in the readme of the project.</td>
     </tr>
+    <tr>
+      <td>Experimet</td>
+      <td>Experiment contains personal project files that use tensorflow and scikit to simulat Convulutional Neural Networks with variances on the cifar dataset. There is also an experiment with mnist dataset using tensorflow tutorial.</td>
+      <td align="center"> No </td>
+      <td>There are 3 files split between mnist, tensor, and scikit respectively. Each contains code to run cifar dataset (except mnist) and experiment with image recognition.</td>
+    </tr>
   </table>
 </body>
